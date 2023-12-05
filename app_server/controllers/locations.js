@@ -5,11 +5,11 @@ const apiOption = {
   server: 'http://localhost:3000'
 };
 if(process.env.NODE_ENV === 'production') {
-  apiOption.server = 'https://loc8r-api-um36.onrender.com';
+  apiOption.server = 'https://loc8r-api-hzei.onrender.com';
 }
 
 const requestOptions = {
-  url: 'https://loc8r-api-um36.onrender.com',
+  url: 'https://loc8r-api-hzei.onrender.com',
   method: 'GET',
   json: {}, 
   qs: {
